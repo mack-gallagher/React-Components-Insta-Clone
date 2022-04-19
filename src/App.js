@@ -18,6 +18,7 @@ import SearchBar from './components/SearchBar/SearchBar.js';
 import './App.css';
 import dummyData from './dummy-data.js';
 
+console.log(dummyData);
 
 const App = () => {
   // Create a state called `posts` to hold the array of post objects, **initializing to dummyData**.
